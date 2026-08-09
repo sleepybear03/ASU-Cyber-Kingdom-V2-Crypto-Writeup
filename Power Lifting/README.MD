@@ -1,8 +1,12 @@
 in this challenge, we are essentially provided the following equations:
 
-out1=(p+5q)power1;(mod;n)
+$$
+\text{out}_1 = (p + 5q)^{\text{power}_1} \pmod n
+$$
 
-out2=(2p−3q)power2;(mod;n)
+$$
+\text{out}_2 = (2p - 3q)^{\text{power}_2} \pmod n
+$$
 
 Where p and q are the primes whose product is n. We of course need to find these in order to break the RSA encryption, whose ciphertext is c.
 
